@@ -4,12 +4,14 @@
 
 # INSTALLITION GUIDE [STEP 1 INSTALL DOCKERFILE]
 
-[url=https://ibb.co/FL3qZwsK][img]https://i.ibb.co/FL3qZwsK/0-CP98-BIIBg-MG2-K3u5.png[/img][/url]
+<a href="https://ibb.co/FL3qZwsK"><img src="https://i.ibb.co/gL9FqTv3/0-CP98-BIIBg-MG2-K3u5.png" alt="0-CP98-BIIBg-MG2-K3u5" border="0"></a>
 
 bash
 ```docker build -t xrdp .```
 
 # [STEP 2 DOKCER RUN]
+
+
 
 bash
 ```docker run -d -p 3389:3389 -v xrdp-root-home:/root --name xrdp-root-wine-audio xrdp```
